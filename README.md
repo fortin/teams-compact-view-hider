@@ -7,11 +7,16 @@ Teams has no setting to turn this off. Switch away from a meeting and a small "c
 ## Requirements
 
 - macOS
-- [Hammerspoon](https://www.hammerspoon.org/)
+- [Hammerspoon](https://www.hammerspoon.org/). With Homebrew:
+
+  ```bash
+  brew install --cask hammerspoon
+  ```
+
 - Microsoft Teams (`com.microsoft.teams2`, the current Teams app)
 - Accessibility permission for Hammerspoon, so it can see and minimise the window
 
-Grant access in **System Settings → Privacy & Security → Accessibility**, then enable Hammerspoon.
+Grant access in **System Settings → Privacy & Security → Data and **, then enable Hammerspoon.
 
 ## Install
 
